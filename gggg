@@ -1,0 +1,64 @@
+/*var n = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(1 ,n).ToArray();
+Console.WriteLine(String.Join(" ", array));*/
+
+
+
+/*var n = int.Parse(Console.ReadLine());
+var x = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(x,n).ToArray();
+Console.WriteLine(String.Join(" ", array));*/
+
+
+
+/*var n = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(1, n).ToArray();
+Console.WriteLine(String.Join(" ", array.Reverse()));*/
+
+
+
+
+/*var n  = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(1, n).ToArray();
+Console.WriteLine(String.Join(" ", array));
+for (int i = 0; i < n; i++) {
+    array[i] = (int)Math.Pow(array[i], 2);
+} 
+Console.WriteLine(String.Join(" ", array));*/
+
+
+
+
+/*var n = int.Parse(Console.ReadLine());
+var x = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(x, n).ToArray();
+Console.WriteLine(String.Join(" ", array.Reverse()));*/
+
+
+
+
+/*var n = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(1, n).ToArray();
+Console.WriteLine(String.Join(" ", array));
+for (int i = 0; i < n; i++)
+{
+    array[i] = (int)Math.Pow(2, array[i]);
+}
+Console.WriteLine(String.Join(" ", array.Reverse())); */
+
+Random rnd = new Random();
+int counter = 0;
+
+int n = int.Parse(Console.ReadLine());
+int[] array = new int[n];
+
+for (int i = 0; i < n ; i++)
+{
+    array[i] = rnd.Next(100, 150);
+    if ((array[i] / 10) % 2 == 0)
+        counter++;
+}
+Console.WriteLine(String.Join(" ", array));
+Console.Write(counter);
+
+
