@@ -61,4 +61,10 @@ for (int i = 0; i < n ; i++)
 Console.WriteLine(String.Join(" ", array));
 Console.Write(counter);
 
++1 
+/*var n = int.Parse(Console.ReadLine());
+var array = Enumerable.Range(1, 10).Select(i => new Random().Next(1, 10));
+Console.WriteLine(String.Join(" ", array));
+Console.WriteLine(array.Count(i => n == i));
+*/
 
