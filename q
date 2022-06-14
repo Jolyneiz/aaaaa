@@ -91,3 +91,6 @@ public class Program
     Console.WriteLine(randomstring);
 }
 }
+
+
+https://programforyou.ru/block-diagram-redactor?
